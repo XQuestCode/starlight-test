@@ -1,0 +1,25 @@
+{
+  "name": "zapping-zenith",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "npm run generate- && astro dev",
+    "start": "npm run generate-mdx && astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "generate-mdx": "node ./test/script.js"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^3.0.4",
+    "@astrojs/prism": "^3.0.0",
+    "@astrojs/solid-js": "^3.0.2",
+    "@astrojs/starlight": "^0.13.0",
+    "astro": "^3.6.0",
+    "astro-expressive-code": "^0.29.1",
+    "fs": "^0.0.1-security",
+    "sharp": "^0.32.6",
+    "solid-js": "^1.8.6",
+    "tailwindcss": "^3.3.5"
+  }
+}
